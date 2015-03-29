@@ -1,0 +1,11 @@
+{
+	"name": "quick-haxe",
+	"license": "MIT",
+	"tags": [],
+	"description": "Useful classes and methods",
+	"version": "0.0.1",
+	"contributors": [ "ramchale" ],
+	"dependencies": {
+		"openfl": ""
+	}
+}
