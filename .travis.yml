@@ -9,7 +9,7 @@ install:
 
 before_script:
   - cd $TRAVIS_BUILD_DIR
-  - haxelib run munit gen
+  - haxelib run munit config -hxml test.hxml
   
 script:
   - haxelib run munit test
