@@ -8,7 +8,6 @@ install:
   - haxelib install hamcrest
 
 before_script:
-  - cd $TRAVIS_BUILD_DIR/tests
   - haxelib run munit gen
   
 script:
