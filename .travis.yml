@@ -4,6 +4,8 @@ haxe:
   - development
   
 install:
+  - xdg-utils
+  - lynx
   - haxelib install munit
   - haxelib install hamcrest
 
