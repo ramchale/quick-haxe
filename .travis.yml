@@ -4,8 +4,8 @@ haxe:
   - development
   
 install:
-  - apt-get xdg-utils
-  - apt-get lynx
+  - apt-get install xdg-utils
+  - apt-get install lynx
   - haxelib install munit
   - haxelib install hamcrest
 
