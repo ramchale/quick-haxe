@@ -10,4 +10,18 @@ class Colour
 		return r << 16 | g << 8 | b;
 	}
 	
+	public static function GetRed(colour:Int) : Int
+	{
+		return 0;
+	}
+	
+	public static function GetGreen(colour:Int) : Int
+	{
+		return 0;
+	}
+	
+	public static function GetBlue(colour:Int) : Int
+	{
+		return 0;
+	}
 }
