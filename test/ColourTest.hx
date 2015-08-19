@@ -17,14 +17,14 @@ class ColourTest extends TestCase
 	
 	public function testGetGreen()
 	{
-		MatcherAssert.assertThat(Colour.GetRed(0x102030), IsEqual.equalTo(32));
+		MatcherAssert.assertThat(Colour.GetGreen(0x102030), IsEqual.equalTo(32));
 		
 		currentTest.done = true;
 	}
 	
 	public function testGetBlue()
 	{
-		MatcherAssert.assertThat(Colour.GetRed(0x102030), IsEqual.equalTo(48));
+		MatcherAssert.assertThat(Colour.GetBlue(0x102030), IsEqual.equalTo(48));
 		
 		currentTest.done = true;
 	}

@@ -12,16 +12,16 @@ class Colour
 	
 	public static function GetRed(colour:Int) : Int
 	{
-		return 0;
+		return (colour & 0xFF0000) >> 16;
 	}
 	
 	public static function GetGreen(colour:Int) : Int
 	{
-		return 0;
+		return (colour & 0xFF00) >> 8;
 	}
 	
 	public static function GetBlue(colour:Int) : Int
 	{
-		return 0;
+		return colour & 0xFF;
 	}
 }
