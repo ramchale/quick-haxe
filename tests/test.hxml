@@ -1,0 +1,6 @@
+-main TestMain
+
+-lib hamcrest
+-lib quick-haxe
+
+-neko tests.n

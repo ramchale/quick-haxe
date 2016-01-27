@@ -1,4 +1,1 @@
-.munit
-bin/
-build/
-report/
+*.n

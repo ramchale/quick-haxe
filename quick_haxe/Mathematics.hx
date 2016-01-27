@@ -18,4 +18,15 @@ class Mathematics
 		if (result < 0) return result + mod;
 		else return result;
 	}
+	
+	//TODO handle fact it's less than 1.0 not <= 1.0
+	public inline static function random(min:Float, maxish:Float) : Float
+	{
+		return (Math.random() * (maxish - min)) + min;
+	}
+
+	public inline static function randomInt(min:Float, max:Float) : Int
+	{
+		return Math.floor((Math.random() * (max + 1 - min)) + min);
+	}
 }

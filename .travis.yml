@@ -1,17 +1,19 @@
 language: haxe
 haxe:
-  - "3.1.3"
+  - "3.2.1"
   - development
-  
-install:
-  - sudo apt-get install xdg-utils
-  - sudo apt-get install lynx
-  - haxelib install munit
-  - haxelib install hamcrest
 
-before_script:
-  - cd $TRAVIS_BUILD_DIR
-  - haxelib run munit config -hxml test.hxml
-  
+install:
+  - haxelib dev quick-haxe $TRAVIS_BUILD_DIR
+  - haxelib install openfl
+  - haxelib install hamcrest
+  - haxelib list
+
 script:
-  - haxelib run munit test
+  - cd tests
+  - haxe test.hxml
+  - neko tests.n
+
+cache:
+  directories:
+    - $HOME/haxe/lib
