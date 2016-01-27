@@ -1,0 +1,6 @@
+-lib hamcrest
+-cp quick-haxe quick-haxe
+-cp test
+
+-neko testmain.n
+-main TestMain
