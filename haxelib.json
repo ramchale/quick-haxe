@@ -1,11 +1,10 @@
 {
 	"name": "quick-haxe",
+	"url": "https://github.com/ramchale/quick-haxe",
 	"license": "MIT",
-	"tags": [],
-	"description": "Useful classes and methods",
+	"tags": ["utility","math"],
+	"description": "Utility methods for math, colours, interpolation",
 	"version": "0.0.1",
-	"contributors": [ "ramchale" ],
-	"dependencies": {
-		"openfl": ""
-	}
+	"releasenote":  "First release",
+	"contributors": [ "ramchale" ]
 }
