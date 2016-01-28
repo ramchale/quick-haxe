@@ -10,22 +10,22 @@ class ColourTest extends TestCase
 {
 	public function testGetRed()
 	{
-		MatcherAssert.assertThat(Colour.GetRed(0x102030), IsEqual.equalTo(16));
-		
+		MatcherAssert.assertThat(Colour.getRed(0x102030), IsEqual.equalTo(16));
+
 		currentTest.done = true;
 	}
-	
+
 	public function testGetGreen()
 	{
-		MatcherAssert.assertThat(Colour.GetGreen(0x102030), IsEqual.equalTo(32));
-		
+		MatcherAssert.assertThat(Colour.getGreen(0x102030), IsEqual.equalTo(32));
+
 		currentTest.done = true;
 	}
-	
+
 	public function testGetBlue()
 	{
-		MatcherAssert.assertThat(Colour.GetBlue(0x102030), IsEqual.equalTo(48));
-		
+		MatcherAssert.assertThat(Colour.getBlue(0x102030), IsEqual.equalTo(48));
+
 		currentTest.done = true;
 	}
 }

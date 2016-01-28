@@ -1,0 +1,11 @@
+-D doc-gen
+--no-output
+
+-lib quick-haxe
+--macro include('quick_haxe')
+--each
+
+--next
+-swf dummy.swf
+-swf-version 11.2
+-xml flash_doc.xml
