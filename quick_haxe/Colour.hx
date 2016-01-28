@@ -6,7 +6,7 @@ package quick_haxe;
 class Colour
 {
 	/**
-	* Produce a random colour
+	* Generate a random colour
 	**/
 	public inline static function random() : Int
 	{

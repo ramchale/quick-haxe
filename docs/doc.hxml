@@ -3,7 +3,9 @@
 
 -lib quick-haxe
 --macro include('quick_haxe')
+--each
 
--swf haxedoc.swf
+--next
+-swf dummy.swf
 -swf-version 11.2
--xml doc_gen.xml
+-xml flash_doc.xml

@@ -78,7 +78,7 @@ class MathematicsTest extends TestCase
 		for (i in 0 ... 100)
 		{
 			var result:Int = Mathematics.randomInt(0, 10);
-			MatcherAssert.assertThat(true, IsEqual.equalTo(result < 10 && result >= 0), '$result was outside expected range');
+			MatcherAssert.assertThat(true, IsEqual.equalTo(result <= 10 && result >= 0), '$result was outside expected range');
 		}
 
 		currentTest.done = true;
@@ -89,7 +89,7 @@ class MathematicsTest extends TestCase
 		for (i in 0 ... 100)
 		{
 			var result:Int = Mathematics.randomInt(-10, 0);
-			MatcherAssert.assertThat(true, IsEqual.equalTo(result < 0 && result >= -10), '$result was outside expected range');
+			MatcherAssert.assertThat(true, IsEqual.equalTo(result <= 0 && result >= -10), '$result was outside expected range');
 		}
 
 		currentTest.done = true;
@@ -100,7 +100,7 @@ class MathematicsTest extends TestCase
 		for (i in 0 ... 100)
 		{
 			var result:Int = Mathematics.randomInt(-10, 10);
-			MatcherAssert.assertThat(true, IsEqual.equalTo(result < 10 && result >= -10), '$result was outside expected range');
+			MatcherAssert.assertThat(true, IsEqual.equalTo(result <= 10 && result >= -10), '$result was outside expected range');
 		}
 
 		currentTest.done = true;
