@@ -1,7 +1,7 @@
 package quick_haxe;
 
 /**
-* A colletion of static methods for handling colours
+* A collection of static methods for handling colours
 **/
 class Colour
 {

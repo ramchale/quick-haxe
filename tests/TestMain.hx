@@ -1,3 +1,4 @@
+import quick_haxe.StringUtilities;
 class TestMain
 {
 	static function main(){
@@ -7,6 +8,7 @@ class TestMain
 		r.add(new MathematicsTest());
 		r.add(new ColourTest());
 		r.add(new Geometry2DTest());
+		r.add(new StringUtilitiesTests());
 		
         r.run();
     }
